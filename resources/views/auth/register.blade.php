@@ -22,7 +22,7 @@
     }
     .container {
         width: 45%;
-        margin: 1% 0% 0 5%; 
+        margin: 0% 0% 0 5%; 
         float: right;
         display: flex;
     }
@@ -47,7 +47,7 @@
     }
     .row{
         color: #E3E3E3;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
     .col-md-4{
         font-size: 15px;
@@ -70,6 +70,12 @@
     }
     .form-check{
         margin-top: 2px; 
+    }
+    .invalid-feedback {
+    display: block; 
+    color: #ff0000; 
+    font-size: 14px;
+    margin-top: 5px; 
     }
 
 </style>

@@ -88,8 +88,15 @@
         width: 150%;
     }
     .registerlink{
-        color: #fff; /* Blue text color for btn-link */
+        color: #fff; 
+    }  
+    .invalid-feedback {
+    display: block; 
+    color: #ff0000; 
+    font-size: 14px; 
+    margin-top: 5px; 
     }
+
 
 </style>
 
