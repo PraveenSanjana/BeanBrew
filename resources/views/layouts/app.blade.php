@@ -25,7 +25,7 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
+            <!--<div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
@@ -63,7 +63,7 @@
 
 
                         <!-- Authentication Links -->
-                        @guest
+                        <!--@guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -94,7 +94,7 @@
                                     </form>
                                 </div>
                             </li>
-                        @endguest
+                        @endguest-->
                     </ul>
                 </div>
             </div>
