@@ -27,6 +27,7 @@ Route::get('/dev', function () {
     // dd(\App\Http\Controllers\ContactController::class);
 
     // dd('Dev');
+    // dd('Dev');
 
     return 'Development Function';
 })->middleware([

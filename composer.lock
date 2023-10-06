@@ -20,9 +20,11 @@
                 "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478",
                 "shasum": ""
             },
+
             "require": {
                 "php": "^8.0"
             },
+            
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^9.0",
